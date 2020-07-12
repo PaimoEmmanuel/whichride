@@ -1,1 +1,7 @@
-sass/
+sass/_base.scss
+sass/_footer.scss
+sass/_header.scss
+sass/_mixin.scss
+sass/_why.scss
+sass/_mixins.scss
+sass/main.scss
