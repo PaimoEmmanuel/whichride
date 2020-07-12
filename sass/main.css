@@ -136,6 +136,12 @@ body {
 }
 
 @media only screen and (max-width: 75em) {
+  .heading-container a {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 75em) {
   .heading-image {
     text-align: center;
   }
@@ -175,11 +181,24 @@ body {
   letter-spacing: -2px;
 }
 
+@media only screen and (max-width: 75em) {
+  .heading-primary {
+    font-size: 5.8rem;
+    line-height: 6.3rem;
+  }
+}
+
 .heading-secondary {
   font-weight: bold;
   font-size: 2rem;
   color: #4F4F4F;
   margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 75em) {
+  .heading-secondary {
+    font-size: 3rem;
+  }
 }
 
 .about {
@@ -203,8 +222,9 @@ body {
   width: 62rem;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 75em) {
   .about-primary {
+    font-size: 4.6rem;
     width: auto;
   }
 }
@@ -216,6 +236,13 @@ body {
   color: #E0E0E0;
   margin: 3rem auto;
   width: 50rem;
+}
+
+@media only screen and (max-width: 75em) {
+  .about-secondary {
+    font-size: 3rem;
+    width: 65rem;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -294,6 +321,14 @@ body {
           align-items: center;
 }
 
+@media only screen and (max-width: 75em) {
+  .about-list-bullet {
+    font-size: 2.4rem;
+    height: 10rem;
+    width: 10rem;
+  }
+}
+
 .about-list-primary {
   font-weight: bold;
   font-size: 2.4rem;
@@ -301,11 +336,35 @@ body {
   margin-bottom: 1.5rem;
 }
 
+@media only screen and (max-width: 75em) {
+  .about-list-primary {
+    font-size: 3.4rem;
+  }
+}
+
 .about-list-secondary {
   font-weight: 500;
   font-size: 1.73rem;
   color: #F7F7F7;
   width: 40rem;
+}
+
+@media only screen and (max-width: 75em) {
+  .about-list-secondary {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .about-list-secondary {
+    width: 45rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .about-list-secondary {
+    width: 35rem;
+  }
 }
 
 .section-why {
@@ -327,6 +386,12 @@ body {
   font-size: 3.6rem;
   color: #232C35;
   text-align: center;
+}
+
+@media only screen and (max-width: 75em) {
+  .why-heading {
+    font-size: 5.8rem;
+  }
 }
 
 .why-container {
@@ -387,6 +452,12 @@ body {
   margin-bottom: 1.5rem;
 }
 
+@media only screen and (max-width: 75em) {
+  .why-primary {
+    font-size: 3rem;
+  }
+}
+
 .why-secondary {
   font-weight: 500;
   font-size: 1.8rem;
@@ -394,9 +465,17 @@ body {
   width: 35rem;
 }
 
+@media only screen and (max-width: 75em) {
+  .why-secondary {
+    font-size: 2.3rem;
+  }
+}
+
 @media only screen and (max-width: 56.25em) {
   .why-secondary {
     text-align: center;
+    font-size: 2.8rem;
+    width: 55rem;
   }
 }
 
@@ -419,12 +498,26 @@ body {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 75em) {
+  .footer-primary {
+    font-size: 4.6rem;
+    letter-spacing: -1px;
+  }
+}
+
 .footer-secondary {
   font-size: 2rem;
   text-align: center;
   color: #233533;
   margin: 0 auto;
   width: 52rem;
+}
+
+@media only screen and (max-width: 75em) {
+  .footer-secondary {
+    font-size: 2.5rem;
+    padding: 0 4rem;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -485,6 +578,21 @@ body {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 75em) {
+  .form input::-webkit-input-placeholder {
+    font-size: 2rem;
+  }
+  .form input:-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .form input::-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .form input::placeholder {
+    font-size: 2rem;
+  }
+}
+
 .form button {
   background: #2C3539;
   font-size: 1.6rem;
@@ -493,6 +601,12 @@ body {
   padding: 1rem;
   border: none;
   font-family: brown;
+}
+
+@media only screen and (max-width: 75em) {
+  .form button {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -509,9 +623,16 @@ body {
   font-family: brown;
 }
 
+@media only screen and (max-width: 75em) {
+  .footer-base {
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (max-width: 37.5em) {
   .footer-base {
     padding: 2rem 4rem;
+    font-size: 1.2rem;
   }
 }
 
