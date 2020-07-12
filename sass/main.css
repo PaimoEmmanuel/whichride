@@ -92,6 +92,9 @@ body {
 
 .header {
   padding: 0 10rem;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -430,6 +433,9 @@ body {
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
   margin-top: 10rem;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -680,5 +686,8 @@ body {
 
 .footer-base-div {
   border-bottom: 1px solid #FFFFFF;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */
